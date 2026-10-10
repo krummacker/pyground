@@ -14,7 +14,7 @@ def test_person_stores_identity_details():
 @pytest.mark.parametrize(
     ("name", "age", "gender", "expected"),
     [
-        ("Alice", 30, "F", "My name is Alice and I am 31 years old.\n"),
+        ("Alice", 30, "F", "My name is Alice and I am 30 years old.\n"),
         ("Bob", 25, "M", "My name is Bob and I am 25 years old.\n"),
     ],
 )
