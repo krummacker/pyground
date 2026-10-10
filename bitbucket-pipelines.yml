@@ -1,0 +1,9 @@
+image: python:3.12
+
+pipelines:
+  default:
+    - step:
+        name: Unit tests
+        script:
+          - python -m pip install -e ".[test]"
+          - python -m pytest
