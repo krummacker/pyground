@@ -6,7 +6,7 @@ demonstrates them.
 
 ## Requirements
 
-- Python 3.9 or later
+- Python 3.15 or later
 - pip
 
 ## Install
@@ -52,5 +52,6 @@ Run the test suite from the project directory:
 python -m pytest
 ```
 
-The tests cover person greetings and vehicle behavior. The GitLab CI pipeline
-installs the project with the `test` extra and runs pytest.
+The tests cover person greetings and vehicle behavior. The GitLab CI pipeline,
+GitHub Actions workflow, and Bitbucket pipeline install the project with the
+`test` extra and run pytest.
