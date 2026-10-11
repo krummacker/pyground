@@ -6,7 +6,7 @@ build-backend = "setuptools.build_meta"
 name = "pyground"
 version = "0.1.0"
 description = "Hello World program"
-requires-python = ">=3.15"
+requires-python = ">=3.14"  # Bitbucket and GitLab do not support 3.15 yet
 
 [project.optional-dependencies]
 test = ["pytest>=8.0"]
